@@ -320,7 +320,8 @@
   /* PROJECTS */
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* Updated to 2 columns to neatly fit 4 projects */
+    grid-template-columns: repeat(2, 1fr);
     gap: 1px;
     background: var(--border);
     border: 1px solid var(--border);
@@ -662,20 +663,27 @@
   <div class="projects-grid">
     <div class="project-card" data-animate>
       <p class="project-index">01</p>
+      <h3 class="project-name">Northstar</h3>
+      <p class="project-desc">A planning workspace that feels like a real product, not a starter template. A modern work surface with opinionated polish: quick filters, searchable cards, live metrics, and a focused create-task rail.</p>
+      <p class="project-stack">React · Firebase · Vite</p>
+      <a href="https://northstar-dash.web.app/" target="_blank" class="project-link">View Live Site →</a>
+    </div>
+    <div class="project-card" data-animate>
+      <p class="project-index">02</p>
       <h3 class="project-name">PNW ShredHub</h3>
       <p class="project-desc">Community platform for Pacific Northwest skaters featuring real-time spot discovery, user authentication, and media uploads via Firebase.</p>
       <p class="project-stack">React · Firebase · Vite</p>
       <a href="https://pnw-shred.web.app" target="_blank" class="project-link">View Live Site →</a>
     </div>
     <div class="project-card" data-animate>
-      <p class="project-index">02</p>
+      <p class="project-index">03</p>
       <h3 class="project-name">PuffCo Companion</h3>
       <p class="project-desc">Responsive companion web application for PuffCo device users, featuring session tracking, a settings guide, and smooth UI interactions.</p>
       <p class="project-stack">React · Vite · Vercel</p>
       <a href="https://puff-co-comp-v3.vercel.app" target="_blank" class="project-link">View Live Site →</a>
     </div>
     <div class="project-card" data-animate>
-      <p class="project-index">03</p>
+      <p class="project-index">04</p>
       <h3 class="project-name">alachDEV Studio</h3>
       <p class="project-desc">Studio portfolio and service landing page showcasing web development offerings, case studies, and an integrated client contact flow.</p>
       <p class="project-stack">React · Firebase · Brand Design</p>
