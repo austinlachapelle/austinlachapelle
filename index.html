@@ -320,8 +320,7 @@
   /* PROJECTS */
   .projects-grid {
     display: grid;
-    /* Updated to 2 columns to neatly fit 4 projects */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     background: var(--border);
     border: 1px solid var(--border);
@@ -524,7 +523,8 @@
     .nav-links { display: none; }
     #hero { grid-template-columns: 1fr; padding: 120px 24px 60px; gap: 48px; min-height: auto; }
     .section-wrap { padding: 60px 24px; }
-    .projects-grid, .edu-grid { grid-template-columns: 1fr; }
+    .projects-grid { grid-template-columns: 1fr 1fr; }
+    .edu-grid { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
     .exp-item { grid-template-columns: 1fr; gap: 12px; }
     #contact { padding: 80px 24px; }
@@ -664,9 +664,9 @@
     <div class="project-card" data-animate>
       <p class="project-index">01</p>
       <h3 class="project-name">Northstar</h3>
-      <p class="project-desc">A planning workspace that feels like a real product, not a starter template. A modern work surface with opinionated polish: quick filters, searchable cards, live metrics, and a focused create-task rail.</p>
-      <p class="project-stack">React · Firebase · Vite</p>
-      <a href="https://northstar-dash.web.app/" target="_blank" class="project-link">View Live Site →</a>
+      <p class="project-desc">A local-first project planning workspace featuring a Kanban board, priority filtering, full-text search, task creation, and localStorage-based authentication — no backend required.</p>
+      <p class="project-stack">React · Vite · localStorage</p>
+      <a href="https://northstar-dash.web.app" target="_blank" class="project-link">View Live Site →</a>
     </div>
     <div class="project-card" data-animate>
       <p class="project-index">02</p>
@@ -677,17 +677,31 @@
     </div>
     <div class="project-card" data-animate>
       <p class="project-index">03</p>
+      <h3 class="project-name">alachDEV Studio</h3>
+      <p class="project-desc">Studio portfolio and service landing page showcasing web development offerings, case studies, and an integrated client contact flow.</p>
+      <p class="project-stack">React · Firebase · Brand Design</p>
+      <a href="https://alachdev-787af.web.app" target="_blank" class="project-link">View Live Site →</a>
+    </div>
+    <div class="project-card" data-animate>
+      <p class="project-index">04</p>
       <h3 class="project-name">PuffCo Companion</h3>
       <p class="project-desc">Responsive companion web application for PuffCo device users, featuring session tracking, a settings guide, and smooth UI interactions.</p>
       <p class="project-stack">React · Vite · Vercel</p>
       <a href="https://puff-co-comp-v3.vercel.app" target="_blank" class="project-link">View Live Site →</a>
     </div>
     <div class="project-card" data-animate>
-      <p class="project-index">04</p>
-      <h3 class="project-name">alachDEV Studio</h3>
-      <p class="project-desc">Studio portfolio and service landing page showcasing web development offerings, case studies, and an integrated client contact flow.</p>
-      <p class="project-stack">React · Firebase · Brand Design</p>
-      <a href="https://alachdev-787af.web.app" target="_blank" class="project-link">View Live Site →</a>
+      <p class="project-index">05</p>
+      <h3 class="project-name">HashStash</h3>
+      <p class="project-desc">A web application built and deployed via Firebase. Visit the live site to explore its features and functionality.</p>
+      <p class="project-stack">Firebase</p>
+      <a href="https://hashstash.web.app" target="_blank" class="project-link">View Live Site →</a>
+    </div>
+    <div class="project-card" data-animate>
+      <p class="project-index">06</p>
+      <h3 class="project-name">Canopy</h3>
+      <p class="project-desc">A local-first internship application tracker designed around a pine-forest aesthetic. Built with React and Vite, it features a drag-and-drop Kanban board, an analytics dashboard with funnel and conversion metrics, an inline-editable data table, and per-application timelines with contacts and resume version tracking. All data persists locally with per-user accounts — no backend required.</p>
+      <p class="project-stack">React · Vite · localStorage</p>
+      <a href="https://canopytracker-876ad.web.app" target="_blank" class="project-link">View Live Site →</a>
     </div>
   </div>
 </div>
