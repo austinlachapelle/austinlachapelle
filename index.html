@@ -572,6 +572,19 @@ footer span {
   font-family: var(--mono); font-size: 10px;
   color: rgba(255,255,255,0.2); letter-spacing: 0.08em;
 }
+.alt-portfolio-link {
+  font-family: var(--mono); font-size: 10px; font-weight: 400;
+  color: var(--ink4); letter-spacing: 0.10em; text-transform: lowercase;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  transition: color 0.25s, border-color 0.25s;
+  flex-shrink: 0;
+}
+.alt-portfolio-link:hover {
+  color: var(--ink2);
+  border-color: var(--ink3);
+}
 
 /* ─── DIVIDER ─── */
 .full-divider { border: none; border-top: 1px solid var(--border); margin: 0; }
@@ -635,6 +648,7 @@ footer span {
       <li><a href="#contact">Contact</a></li>
     </ul>
     <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"></button>
+    <a href="https://austinlachapelle2.vercel.app" target="_blank" class="alt-portfolio-link">alt ↗</a>
   </div>
 </nav>
 
